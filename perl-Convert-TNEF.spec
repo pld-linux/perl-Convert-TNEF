@@ -2,7 +2,7 @@
 Summary:	Convert-TNEF perl module
 Summary(pl):	Modu³ perla Convert-TNEF
 Name:		perl-Convert-TNEF
-Version:	0.10
+Version:	0.12
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
