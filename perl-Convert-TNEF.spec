@@ -3,7 +3,7 @@ Summary:	Convert-TNEF perl module
 Summary(pl):	Modu³ perla Convert-TNEF
 Name:		perl-Convert-TNEF
 Version:	0.16
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -16,6 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Convert::TNEF - Perl module to read TNEF files.
+
+%description -l pl
+Convert::TNEF - modu³ Perla do czytania plików TNEF.
 
 %prep
 %setup -q -n Convert-TNEF-%{version}
