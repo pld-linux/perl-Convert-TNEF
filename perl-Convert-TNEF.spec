@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	TNEF
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert-TNEF perl module
 Summary(pl):	Modu³ perla Convert-TNEF
 Name:		perl-Convert-TNEF
 Version:	0.16
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Convert::TNEF - Perl module to read TNEF files.
 Convert::TNEF - modu³ Perla do czytania plików TNEF.
 
 %prep
-%setup -q -n Convert-TNEF-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
