@@ -28,7 +28,7 @@ Convert::TNEF - modu³ Perla do czytania plików TNEF.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
