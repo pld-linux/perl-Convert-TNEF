@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	TNEF
-Summary:	Convert-TNEF perl module
-Summary(pl):	Modu³ perla Convert-TNEF
+Summary:	Convert::TNEF perl module
+Summary(pl):	Modu³ perla Convert::TNEF
 Name:		perl-Convert-TNEF
 Version:	0.16
 Release:	5
