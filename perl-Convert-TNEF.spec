@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	TNEF
-Summary:	Convert::TNEF perl module
-Summary(pl):	Modu³ perla Convert::TNEF
+Summary:	Convert::TNEF - Perl module to read TNEF files
+Summary(pl):	Convert::TNEF - modu³ Perla do odczytu plików TNEF
 Name:		perl-Convert-TNEF
 Version:	0.17
 Release:	3
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	31cddf42fae9495b4a686b17ec68d7e0
@@ -18,10 +19,15 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert::TNEF - Perl module to read TNEF files.
+TNEF stands for Transport Neutral Encapsulation Format, and if you've
+ever been unfortunate enough to receive one of these files as an email
+attachment, you may want to use the Convert::TNEF Perl module.
 
 %description -l pl
-Convert::TNEF - modu³ Perla do czytania plików TNEF.
+TNEF oznacza niezale¿ny od transportu format enkapsulacji (Transport
+Neutral Encapsulation Format) i je¶li otrzyma siê jeden z takich
+plików jako za³±cznik w e-mailu, mo¿e zaistnieæ potrzeba pos³u¿enia
+siê modu³em Perla Convert::TNEF.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
