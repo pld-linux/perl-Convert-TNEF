@@ -4,8 +4,8 @@
 Summary:	Convert::TNEF perl module
 Summary(pl):	Modu³ perla Convert::TNEF
 Name:		perl-Convert-TNEF
-Version:	0.16
-Release:	5
+Version:	0.17
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -40,4 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *.gz
+%{_mandir}/man3/*
 %{perl_sitelib}/Convert/TNEF.pm
