@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	TNEF
+%define		pdir	Convert
+%define		pnam	TNEF
 Summary:	Convert::TNEF - Perl module to read TNEF files
 Summary(pl):	Convert::TNEF - modu³ Perla do odczytu plików TNEF
 Name:		perl-Convert-TNEF
