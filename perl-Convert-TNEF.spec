@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	TNEF
 Summary:	Convert::TNEF - Perl module to read TNEF files
-Summary(pl):	Convert::TNEF - modu³ Perla do odczytu plików TNEF
+Summary(pl.UTF-8):   Convert::TNEF - moduÅ‚ Perla do odczytu plikÃ³w TNEF
 Name:		perl-Convert-TNEF
 Version:	0.17
 Release:	4
@@ -29,11 +29,11 @@ TNEF stands for Transport Neutral Encapsulation Format, and if you've
 ever been unfortunate enough to receive one of these files as an email
 attachment, you may want to use the Convert::TNEF Perl module.
 
-%description -l pl
-TNEF oznacza niezale¿ny od transportu format enkapsulacji (Transport
-Neutral Encapsulation Format) i je¶li otrzyma siê jeden z takich
-plików jako za³±cznik w e-mailu, mo¿e zaistnieæ potrzeba pos³u¿enia
-siê modu³em Perla Convert::TNEF.
+%description -l pl.UTF-8
+TNEF oznacza niezaleÅ¼ny od transportu format enkapsulacji (Transport
+Neutral Encapsulation Format) i jeÅ›li otrzyma siÄ™ jeden z takich
+plikÃ³w jako zaÅ‚Ä…cznik w e-mailu, moÅ¼e zaistnieÄ‡ potrzeba posÅ‚uÅ¼enia
+siÄ™ moduÅ‚em Perla Convert::TNEF.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
