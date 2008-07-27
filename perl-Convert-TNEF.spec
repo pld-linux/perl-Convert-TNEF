@@ -9,7 +9,7 @@ Summary:	Convert::TNEF - Perl module to read TNEF files
 Summary(pl.UTF-8):	Convert::TNEF - moduł Perla do odczytu plików TNEF
 Name:		perl-Convert-TNEF
 Version:	0.17
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
