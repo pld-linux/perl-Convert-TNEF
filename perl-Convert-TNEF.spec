@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Convert
 %define		pnam	TNEF
+%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::TNEF - Perl module to read TNEF files
 Summary(pl.UTF-8):	Convert::TNEF - moduł Perla do odczytu plików TNEF
 Name:		perl-Convert-TNEF
@@ -15,11 +15,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	31cddf42fae9495b4a686b17ec68d7e0
+URL:		http://search.cpan.org/dist/Convert-TNEF/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-MIME-tools
 BuildRequires:	perl(MIME::Body) >= 4.109
+BuildRequires:	perl-MIME-tools
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
