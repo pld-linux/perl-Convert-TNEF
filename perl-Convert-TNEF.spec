@@ -4,7 +4,6 @@
 
 %define		pdir	Convert
 %define		pnam	TNEF
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::TNEF - Perl module to read TNEF files
 Summary(pl.UTF-8):	Convert::TNEF - moduł Perla do odczytu plików TNEF
 Name:		perl-Convert-TNEF
